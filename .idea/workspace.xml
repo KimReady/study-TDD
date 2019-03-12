@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46aa0e7b-d36e-423e-92ae-6a63ef58180b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lists/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlists/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functional_tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lists/migrations/0002_item_text.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -59,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="341">
+              <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -74,10 +64,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/migrations/0003_list.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -85,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="228">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -129,12 +133,12 @@
       <list>
         <option value="$PROJECT_DIR$/superlists/settings.py" />
         <option value="$PROJECT_DIR$/functional_test.py" />
-        <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/functional_test/__init__.py" />
         <option value="$PROJECT_DIR$/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/superlists/urls.py" />
-        <option value="$PROJECT_DIR$/lists/views.py" />
+        <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/lists/tests.py" />
+        <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
       </list>
@@ -261,12 +265,12 @@
       <workItem from="1551192102010" duration="3386000" />
       <workItem from="1551251148341" duration="18306000" />
       <workItem from="1551619571106" duration="377000" />
-      <workItem from="1552360966535" duration="9647000" />
+      <workItem from="1552360966535" duration="11538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32941000" />
+    <option name="totallyTimeSpent" value="34832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -314,17 +318,7 @@
     <entry file="file://$PROJECT_DIR$/lists/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/migrations/0002_item_text.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests/__init__.py">
@@ -367,37 +361,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/views.py">
+    <entry file="file://$PROJECT_DIR$/lists/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/migrations/0003_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="341">
+          <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
+    <entry file="file://$PROJECT_DIR$/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
