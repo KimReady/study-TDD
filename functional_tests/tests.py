@@ -63,15 +63,15 @@ class NewVisitorTest(LiveServerTestCase):
         # 프란시스가 홈페이지에 접속한다
         # 에디스의 리스트는 보이지 않는다
         self.browser.get(self.live_server_url)
-        page_text = self.browser.find_elementt_by_tag_name('body').text
-        self.assertNotInt('공작깃털 사기', page_text)
-        self.assertNotInt('그물 만들기', page_text)
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn('공작깃털 사기', page_text)
+        self.assertNotIn('그물 만들기', page_text)
 
         # 프란시스가 새로운 작업 아이템을 입력하기 시작한다
         # 그는 에디스보다 재미가 없다
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('우유 사기')
-        inputbox.set_keys(Keys.ENTER)
+        inputbox.send_keys(Keys.ENTER)
 
         # 프란시스가 전용 URL을 취득한다
         francis_list_url = self.browser.current_url
